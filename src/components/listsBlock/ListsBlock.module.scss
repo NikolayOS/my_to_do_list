@@ -1,0 +1,43 @@
+.container{
+    margin: 46px 0px 0px 51px;
+    .title{
+        font-family: "Oswald", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    ol{
+        padding: 0px 0px 0px 11px;
+        .listItem{
+            display: flex;
+            align-items: center;
+            width: 242px;
+            height: 28px;
+            margin: 13px 0px;
+            padding: 0px 4px;
+            background-color: #D9D9D9;
+            border-radius: 30px;
+            color: #0007;
+            span:first-child{
+                width: 16px;
+                height: 11px;
+                margin: 0px 10px 0px 0px;
+                border-radius: 10px;
+            }
+            .colorCircle1{
+                background-color: #FF0000;
+            }
+            .colorCircle2{
+                background-color: #61FF00;
+            }
+            .colorCircle3{
+                background-color: #5D7DF0;
+            }
+            img{
+                width: 15px;
+                height: 15px;
+                margin: 0px 10px 0px 0px;
+            }
+        }
+    }
+    
+}
